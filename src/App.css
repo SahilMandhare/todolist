@@ -1,0 +1,220 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+.navbar {
+  padding: 1% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 128, 0);
+}
+.navbar-title {
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.navbar-option {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbar-option > a {
+  text-decoration: none;
+  color: black;
+}
+
+.page {
+  margin: 2% 30%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+}
+
+.page h1 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.page-in {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.page-in input {
+  padding: 2%;
+}
+
+.page-in textarea {
+  padding: 2%;
+  height: 120px;
+}
+
+.page-in button {
+  padding: 2%;
+  background-color: rgb(255, 128, 0);
+  border-radius: 1%;
+  border: 0;
+  cursor: pointer;
+}
+
+.home {
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  gap: 2%;
+}
+
+.home-under {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.home-mix {
+  padding: 1%;
+}
+
+.home-todo {
+  padding: 2%;
+  width: 300px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+}
+
+.home-todo h1 {
+  text-align: center;
+  font-size: larger;
+}
+
+.home-todo p {
+  height: 100%;
+  padding: 0 8px;
+}
+
+.home-mix button {
+  padding: 4%;
+  width: 100%;
+  background-color: rgb(255, 128, 0);
+  border: 0;
+  cursor: pointer;
+}
+
+.home-end {
+  width: 100%;
+  display: flex;
+  padding: 0.4%;
+  position: fixed;
+  bottom: 0;
+  background-color: #ff6800;
+}
+
+.home-end a {
+  width: 50%;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.remainder{
+  padding: 1%;
+  position: fixed;
+  right: 2px;
+  bottom: 40px;
+  width: 20%;
+  background-color: white;
+}
+
+.error-main {
+  margin: 2% 30%;
+  display: flex;
+  gap: 10px;
+  background-color: white;
+}
+
+.red {
+  width: 10px;
+  background-color: red;
+}
+
+.error-title{
+  padding: 2%;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex a{
+  padding: 2%;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: green;
+}
+
+.flex button {
+  width: 50%;
+  background-color: red;
+}
